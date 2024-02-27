@@ -12,3 +12,16 @@ new fullpage("#fullpage", {
 
   responsiveSlides: true,
 });
+
+
+const close = document.querySelector('#close')
+const menu = document.querySelector('#menu')
+const mobileNav = document.querySelector('#mobile-nav')
+
+
+menu.addEventListener('click', ()=>{
+  mobileNav.style.display = 'block'
+})
+close.addEventListener('click', ()=>{
+  mobileNav.style.display = 'none'
+})

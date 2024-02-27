@@ -6,25 +6,22 @@
   width: 100%;
   background-color: #00000057;
   position: fixed;
-  height: 70px;
+  /* height: 70px; */
   padding: 10px 40px;
   top: 0;
   z-index: 99;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
   font-family: "Anta";
 }
 
 .header-wrap {
-  max-width: 1200px;
-  width: 100%;
+  max-width: 1000px;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+  margin: auto;
 }
 
 .logo {
@@ -290,14 +287,87 @@ span {
   margin: 5px auto;
 }
 
+.menu{
+  display: none;
+
+}
+
+.menu img{
+  filter: brightness(0) invert(1);
+  cursor: pointer;
+}
+
+
+#mobile-nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 30px;
+
+  margin-top: 20vh;  
+}
+#mobile-nav ul li{
+ list-style: none;
+}
+#mobile-nav ul li a{
+color: #fff;
+text-decoration: none;
+font-family: "Anta";
+
+
+}
+
+#mobile-nav{
+  display: none;
+
+  position: fixed;
+  right: 0;
+  height: 100vh;
+  max-width: 350px;
+  top: 0;
+
+  background: #000000;
+  z-index: 999;
+  color: #fff;
+
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.close{
+  position: absolute;
+
+  top: 4vh;
+  right: 5vw;
+  filter: brightness(0) invert(1);
+
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 750px) {
   #header {
     padding: 10px 20px;
   }
 
+  .menu{
+    display: inline-block;
+    
+  }
+
+  #mobile-nav{
+    display: block;
+  
+    
+  }
+
+
+
   .header-wrap {
     gap: 0;
-    justify-content: start;
+    /* justify-content: start; */
   }
 
   .logo {
@@ -305,6 +375,7 @@ span {
   }
   .nav {
     gap: 10px;
+    display: none;
   }
 
   .nav a {
@@ -364,5 +435,32 @@ span {
   }
   .sc3-slide3 .text {
     margin: 6% 0 0 0%;
+  }
+
+  .contact h1{
+    font-size: 38px;
+    line-height: 100%;
+    margin-bottom: 0;
+  
+  }
+  
+  .contact p{
+    font-size: 18px;
+    margin: 12px auto;
+  }
+  
+  
+  .btnswrap{
+    margin-top: 40px;
+  }
+  
+  .btn button{
+   padding: 10px 80px;
+   width: 250px;
+  
+   font-size: 18px;
+  }
+  .btn p{
+    font-size: 16px;
   }
 }
