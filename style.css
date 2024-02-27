@@ -287,7 +287,7 @@ span {
   margin: 5px auto;
 }
 
-.menu{
+/* .menu{
   display: none;
 
 }
@@ -345,14 +345,14 @@ font-family: "Anta";
   filter: brightness(0) invert(1);
 
   cursor: pointer;
-}
+} */
 
 @media only screen and (max-width: 750px) {
   #header {
     padding: 10px 20px;
   }
 
-  .menu{
+  /* .menu{
     display: inline-block;
     
   }
@@ -361,25 +361,25 @@ font-family: "Anta";
     display: block;
   
     
-  }
+  } */
 
 
 
   .header-wrap {
     gap: 0;
-    /* justify-content: start; */
-  }
+width: 82%; 
+margin: 0 10px;
+}
 
   .logo {
-    width: 110px;
+    width: 90px;
   }
   .nav {
     gap: 10px;
-    display: none;
   }
 
   .nav a {
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .fp-arrow.fp-next {
