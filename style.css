@@ -237,6 +237,59 @@ span {
   padding: 10px;
 }
 
+.contact h1{
+  font-size: 60px;
+  line-height: 100%;
+  margin-bottom: 0;
+
+}
+
+.contact p{
+  font-size: 25px;
+  margin: 20px auto;
+}
+
+
+.btnswrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.btn button{
+ background-color: transparent;
+ border: 1px solid blue;
+ padding: 10px 80px;
+ width: 100%;
+ cursor: pointer;
+
+ font-size: 25px;
+ font-weight: 500;
+
+ font-family: "Anta";
+
+ transition: all 0.3s ease-in-out;
+
+}
+
+.btn button:hover{
+  background-color: blue;
+  color: white;
+}
+
+.btn p{
+  font-size: 20px;
+  font-weight: 500;
+  margin: 5px auto;
+}
+
 @media only screen and (max-width: 750px) {
   #header {
     padding: 10px 20px;

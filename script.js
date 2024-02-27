@@ -7,8 +7,8 @@ new fullpage("#fullpage", {
   controlArrows: true,
   sectionsColor: ["#C0C0C0", "#C0C0C0", "#C0C0C0"],
 
-  navigationTooltips: ["Floors", "Doors", "Windows"],
-  anchors: ["floor", "door", "window"],
+  navigationTooltips: ["Floors", "Doors", "Windows", "Contact"],
+  anchors: ["floor", "door", "window", "contact"],
 
   responsiveSlides: true,
 });
