@@ -6,7 +6,6 @@
   width: 100%;
   background-color: #00000057;
   position: fixed;
-  /* height: 70px; */
   padding: 10px 40px;
   top: 0;
   z-index: 99;
@@ -25,13 +24,11 @@
 }
 
 .logo {
-  width: 160px;
+  width: 220px;
   cursor: pointer;
 }
 .logo img {
   width: 100%;
-
-  filter: brightness(100) invert(0);
 }
 
 .nav {
@@ -165,7 +162,6 @@ span {
   margin: 12% auto 0;
   background-color: #00000056;
   color: white;
-  /* text-align: center !important; */
 
   border-radius: 10px;
   padding: 10px;
@@ -179,7 +175,6 @@ span {
   max-width: 950px;
   margin: 10% auto 0;
   background: #cccccc48;
-  /* text-align: center !important; */
 
   border-radius: 10px;
   padding: 10px;
@@ -209,7 +204,6 @@ span {
   max-width: 950px;
   margin: 17% auto 0;
   background: #cccccc48;
-  /* text-align: center !important; */
 
   border-radius: 10px;
   padding: 10px;
@@ -234,20 +228,18 @@ span {
   padding: 10px;
 }
 
-.contact h1{
+.contact h1 {
   font-size: 60px;
   line-height: 100%;
   margin-bottom: 0;
-
 }
 
-.contact p{
+.contact p {
   font-size: 25px;
   margin: 20px auto;
 }
 
-
-.btnswrap{
+.btnswrap {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -260,116 +252,42 @@ span {
   margin-top: 60px;
 }
 
-.btn button{
- background-color: transparent;
- border: 1px solid blue;
- padding: 10px 80px;
- width: 100%;
- cursor: pointer;
+.btn button {
+  background-color: transparent;
+  border: 1px solid #de7633;
+  padding: 10px 80px;
+  width: 100%;
+  cursor: pointer;
 
- font-size: 25px;
- font-weight: 500;
+  font-size: 25px;
+  font-weight: 500;
 
- font-family: "Anta";
+  font-family: "Anta";
 
- transition: all 0.3s ease-in-out;
-
+  transition: all 0.3s ease-in-out;
 }
 
-.btn button:hover{
-  background-color: blue;
+.btn button:hover {
+  background-color: #de7633;
   color: white;
 }
 
-.btn p{
+.btn p {
   font-size: 20px;
   font-weight: 500;
   margin: 5px auto;
 }
-
-/* .menu{
-  display: none;
-
-}
-
-.menu img{
-  filter: brightness(0) invert(1);
-  cursor: pointer;
-}
-
-
-#mobile-nav ul{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-
-  gap: 30px;
-
-  margin-top: 20vh;  
-}
-#mobile-nav ul li{
- list-style: none;
-}
-#mobile-nav ul li a{
-color: #fff;
-text-decoration: none;
-font-family: "Anta";
-
-
-}
-
-#mobile-nav{
-  display: none;
-
-  position: fixed;
-  right: 0;
-  height: 100vh;
-  max-width: 350px;
-  top: 0;
-
-  background: #000000d8;
-  z-index: 999;
-  color: #fff;
-
-  width: 100%;
-  overflow: hidden;
-
-}
-
-.close{
-  position: absolute;
-
-  top: 4vh;
-  right: 5vw;
-  filter: brightness(0) invert(1);
-
-  cursor: pointer;
-} */
 
 @media only screen and (max-width: 750px) {
   #header {
     padding: 10px 20px;
   }
 
-  /* .menu{
-    display: inline-block;
-    
-  }
-
-  #mobile-nav{
-    display: block;
-  
-    
-  } */
-
-
-
   .header-wrap {
     gap: 0;
-width: 82%; 
-margin: 0 10px;
-}
+    width: 82%;
+    margin: 0 10px;
+  }
 
   .logo {
     width: 90px;
@@ -437,30 +355,28 @@ margin: 0 10px;
     margin: 6% 0 0 0%;
   }
 
-  .contact h1{
+  .contact h1 {
     font-size: 38px;
     line-height: 100%;
     margin-bottom: 0;
-  
   }
-  
-  .contact p{
+
+  .contact p {
     font-size: 18px;
     margin: 12px auto;
   }
-  
-  
-  .btnswrap{
+
+  .btnswrap {
     margin-top: 40px;
   }
-  
-  .btn button{
-   padding: 10px 80px;
-   width: 250px;
-  
-   font-size: 18px;
+
+  .btn button {
+    padding: 10px 80px;
+    width: 250px;
+
+    font-size: 18px;
   }
-  .btn p{
+  .btn p {
     font-size: 16px;
   }
 }
